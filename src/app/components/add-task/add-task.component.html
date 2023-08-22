@@ -1,0 +1,15 @@
+<form action="" *ngIf="showAddTask" class="flex flex-col align-middle gap-2" (ngSubmit)="onSubmit()" [formGroup]="taskForm">
+    <div class="flex gap-2 flex-col">
+        <label for="text" class="text-lg">Name:</label>
+        <input type="text" placeholder="Enter Name" name="text" id="text" class="outline-1 outline p-1 text-lg rounded" formControlName="name">
+    </div>
+    <div class="flex gap-2 flex-col">
+        <label for="desc" class="text-lg">Description:</label>
+        <input type="text" placeholder="Enter Description" name="desc" id="desc" class="outline outline-1 p-1 text-lg rounded" formControlName="description">
+    </div>
+    <div class="flex gap-2 ">
+        <label for="reminder" class="text-lg">Set Reminder:</label>
+        <input type="checkbox" placeholder="Reminder" name="reminder" id="reminder" class=" p-1" formControlName="reminder"> 
+    </div>
+    <input type="submit" class="btn ">
+</form>

@@ -1,0 +1,11 @@
+<div   [ngClass]="{reminder: task.reminder}" class="task" (click)="onReminderToggle(task,$event)" >
+<div class="p-3 " >
+
+    <h2>{{task.name}}</h2>
+    <p>{{task.description}}</p>
+</div>
+<div class="p-4 text-xl cursor-pointer text-red-600" (click)="onDelete(task)">
+    <fa-icon  [icon]="faTimes"  ></fa-icon>
+    <!-- <a href=""> </a> -->
+</div>
+</div>

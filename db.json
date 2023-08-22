@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "name": "Ritheesh",
+      "description": "web dev",
+      "reminder": false,
+      "id": 1
+    },
+    {
+      "name": "Gowda",
+      "description": "backend",
+      "reminder": false,
+      "id": 2
+    },
+    {
+      "name": "James",
+      "description": "Detective",
+      "reminder": true,
+      "id": 3
+    },
+    {
+      "name": "Bond",
+      "description": "Surname",
+      "reminder": true,
+      "id": 4
+    }
+  ]
+}
